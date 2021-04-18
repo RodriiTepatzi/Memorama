@@ -49,5 +49,10 @@ namespace Memorama
         {
             return new Uri(IMG_NOMBRES[i], UriKind.Relative);
         }
+
+        public int TotalImagenes()
+        {
+            return IMG_NOMBRES.Count();
+        }
     }
 }

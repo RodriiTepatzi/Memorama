@@ -60,6 +60,56 @@
                     <ImageBrush ImageSource="/Memorama;component/img/TarjetaReverso.png" TileMode="Tile"/>
                 </Image.OpacityMask>
             </Image>
+            <Image x:Name="Tarjeta_1_Hidden" HorizontalAlignment="Left" Height="120" Margin="10,10,0,0" VerticalAlignment="Top" Width="90" Source="/Memorama;component/img/TarjetaReverso.png">
+                <Image.OpacityMask>
+                    <ImageBrush ImageSource="/Memorama;component/img/TarjetaReverso.png" TileMode="Tile"/>
+                </Image.OpacityMask>
+            </Image>
+            <Image x:Name="Tarjeta_2_Hidden" HorizontalAlignment="Left" Height="120" Margin="105,10,0,0" VerticalAlignment="Top" Width="90" Source="/Memorama;component/img/TarjetaReverso.png">
+                <Image.OpacityMask>
+                    <ImageBrush ImageSource="/Memorama;component/img/TarjetaReverso.png" TileMode="Tile"/>
+                </Image.OpacityMask>
+            </Image>
+            <Image x:Name="Tarjeta_3_Hidden" HorizontalAlignment="Left" Height="120" Margin="200,10,0,0" VerticalAlignment="Top" Width="90" Source="/Memorama;component/img/TarjetaReverso.png">
+                <Image.OpacityMask>
+                    <ImageBrush ImageSource="/Memorama;component/img/TarjetaReverso.png" TileMode="Tile"/>
+                </Image.OpacityMask>
+            </Image>
+            <Image x:Name="Tarjeta_4_Hidden" HorizontalAlignment="Left" Height="120" Margin="296,10,0,0" VerticalAlignment="Top" Width="90" Source="/Memorama;component/img/TarjetaReverso.png">
+                <Image.OpacityMask>
+                    <ImageBrush ImageSource="/Memorama;component/img/TarjetaReverso.png" TileMode="Tile"/>
+                </Image.OpacityMask>
+            </Image>
+            <Image x:Name="Tarjeta_6_Hidden" HorizontalAlignment="Left" Height="120" Margin="10,135,0,0" VerticalAlignment="Top" Width="90" Source="/Memorama;component/img/TarjetaReverso.png">
+                <Image.OpacityMask>
+                    <ImageBrush ImageSource="/Memorama;component/img/TarjetaReverso.png" TileMode="Tile"/>
+                </Image.OpacityMask>
+            </Image>
+            <Image x:Name="Tarjeta_7_Hidden" HorizontalAlignment="Left" Height="120" Margin="105,135,0,0" VerticalAlignment="Top" Width="90" Source="/Memorama;component/img/TarjetaReverso.png">
+                <Image.OpacityMask>
+                    <ImageBrush ImageSource="/Memorama;component/img/TarjetaReverso.png" TileMode="Tile"/>
+                </Image.OpacityMask>
+            </Image>
+            <Image x:Name="Tarjeta_8_Hidden" HorizontalAlignment="Left" Height="120" Margin="200,135,0,0" VerticalAlignment="Top" Width="90" Source="/Memorama;component/img/TarjetaReverso.png">
+                <Image.OpacityMask>
+                    <ImageBrush ImageSource="/Memorama;component/img/TarjetaReverso.png" TileMode="Tile"/>
+                </Image.OpacityMask>
+            </Image>
+            <Image x:Name="Tarjeta_9_Hidden" HorizontalAlignment="Left" Height="120" Margin="296,135,0,0" VerticalAlignment="Top" Width="90" Source="/Memorama;component/img/TarjetaReverso.png">
+                <Image.OpacityMask>
+                    <ImageBrush ImageSource="/Memorama;component/img/TarjetaReverso.png" TileMode="Tile"/>
+                </Image.OpacityMask>
+            </Image>
+            <Image x:Name="Tarjeta_5_Hidden" HorizontalAlignment="Left" Height="120" Margin="391,10,0,0" VerticalAlignment="Top" Width="90" Source="/Memorama;component/img/TarjetaReverso.png">
+                <Image.OpacityMask>
+                    <ImageBrush ImageSource="/Memorama;component/img/TarjetaReverso.png" TileMode="Tile"/>
+                </Image.OpacityMask>
+            </Image>
+            <Image x:Name="Tarjeta_10_Hidden" HorizontalAlignment="Left" Height="120" Margin="391,135,0,0" VerticalAlignment="Top" Width="90" Source="/Memorama;component/img/TarjetaReverso.png">
+                <Image.OpacityMask>
+                    <ImageBrush ImageSource="/Memorama;component/img/TarjetaReverso.png" TileMode="Tile"/>
+                </Image.OpacityMask>
+            </Image>
         </Grid>
         <Button Content="Salir" HorizontalAlignment="Left" Margin="386,353,0,0" VerticalAlignment="Top" Width="74"/>
 

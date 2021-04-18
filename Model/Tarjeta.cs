@@ -25,9 +25,21 @@ namespace Memorama
             "Tarjeta_8",
             "Tarjeta_9",
             "Tarjeta_10"};
-        
 
-        
+        public List<string> tarjetas_hidden = new List<string>
+           {"Tarjeta_1_Hidden",
+            "Tarjeta_2_Hidden",
+            "Tarjeta_3_Hidden",
+            "Tarjeta_4_Hidden",
+            "Tarjeta_5_Hidden",
+            "Tarjeta_6_Hidden",
+            "Tarjeta_7_Hidden",
+            "Tarjeta_8_Hidden",
+            "Tarjeta_9_Hidden",
+            "Tarjeta_10_Hidden"};
+
+
+
         ItemFinder ItemFinder = new ItemFinder();
         Image TarjetaData;
         BitmapImage IMG_Source;
@@ -47,7 +59,17 @@ namespace Memorama
             }
         }
 
-        public List<string> GetTarjetas(int max)
+        public List<string> GetTarjetaHidden(int max)
+        {
+            List<string> toReturn = new List<string>();
+            for (int i = 0; i < max; i++)
+            {
+                toReturn.Add(tarjetas_hidden[i]);
+            }
+
+            return toReturn;
+        }
+        public List<string> GetTarjeta(int max)
         {
             List<string> toReturn = new List<string>();
             for (int i = 0; i < max; i++)
