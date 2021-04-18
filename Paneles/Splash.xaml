@@ -1,0 +1,17 @@
+﻿<Window x:Class="Memorama.Splash"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Memorama"
+        mc:Ignorable="d"
+        Title="Splash" Height="272" Width="552" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Topmost="True" WindowStyle="None" Background="{x:Null}" Cursor="None" ForceCursor="True">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="img/Splash_BG@2x-100.jpg"/>
+        </Grid.Background>
+        <Rectangle x:Name="Bar" Fill="#FF494949" HorizontalAlignment="Left" Height="5" Margin="0,267,0,0" VerticalAlignment="Top" Width="552"/>
+        <Rectangle x:Name="Loader" Fill="#FF933131" HorizontalAlignment="Left" Height="5" Margin="0,267,0,0" VerticalAlignment="Top" Width="10"/>
+
+    </Grid>
+</Window>

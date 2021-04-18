@@ -1,0 +1,16 @@
+﻿<Page x:Class="Memorama.Seleccion"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Memorama"
+      mc:Ignorable="d"
+      Title="Seleeccion" Height="116" Width="96">
+
+    <Grid>
+        <Button x:Name="Facil_Sel_Btn" Content="Facil" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="Facil_Sel_Btn_Click"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="Regresar_Sel_Btn" Content="Regresar" HorizontalAlignment="Left" Margin="10,85,0,0" VerticalAlignment="Top" Width="75" Click="Regresar_Sel_Btn_Click"/>
+    </Grid>
+</Page>

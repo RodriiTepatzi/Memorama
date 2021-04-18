@@ -1,0 +1,17 @@
+﻿<Window x:Class="Memorama.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Memorama"
+        mc:Ignorable="d"
+        Title="Memorama" Height="550" Width="850" WindowStartupLocation="CenterScreen" WindowState="Maximized" MinWidth="850" MinHeight="550" WindowStyle="None">
+    <WrapPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="850" Height="550" Margin="0">
+        <WrapPanel Height="50" Width="850">
+            <Label Content="Label"/>
+        </WrapPanel>
+
+        <Frame x:Name="frameDisplayer" Source="/Memorama;component/Paneles/Menu.xaml" NavigationUIVisibility="Hidden" Height="500" Width="850" Margin="0"/>
+
+    </WrapPanel>
+</Window>
